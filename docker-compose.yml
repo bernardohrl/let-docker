@@ -7,3 +7,6 @@ services:
       - "3000:3000" # Mapeia porta 3000 para 3000 do serviço
   db:
     image: postgres
+
+
+    
