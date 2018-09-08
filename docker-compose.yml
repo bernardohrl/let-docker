@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:                   # Nome do serviço
+    build: .
+    image: bernardohrl/basic-react-js:v1
+    ports:
+      - "3000:3000" # Mapeia porta 3000 para 3000 do serviço
+  db:
+    image: postgres
