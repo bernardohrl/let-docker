@@ -9,6 +9,7 @@ WORKDIR /app
 COPY . /app
 
 # Run the server
+RUN npm install
 CMD ["npm", "start"]
 
 # Tell Docker about the port we'll run on.
